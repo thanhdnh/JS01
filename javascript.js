@@ -1,4 +1,4 @@
-//document.writeln("Hello, Javascript !");
+//https://github.com/thanhdnh/JS01
 let sv = new Array(
     new Array("Nam", 20, 7.7),
     new Array("Hoa", 22, 8.3),
@@ -32,3 +32,16 @@ function PrintData(data){
 }
 
 document.writeln(PrintData(sv));
+
+//======================
+let mymenu = {
+    "laptop": new Array(
+        "Dell", "Sony", "Acer", "Asus", "Apple"
+    ),
+    "smartphone": new Array(
+        "iPhone", "Galaxy S", "Sony Xperia"
+    ),
+    "tablet": new Array(
+        "Sony Z", "Galaxy Tab", "iPad"
+    )
+};
