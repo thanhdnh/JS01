@@ -10,11 +10,11 @@ let sv = new Array(
 function PrintData(data){
     let result = `
     <table border='1'>
-        <thead style='font-weight: bold;'>
+        <thead>
             <tr>
-                <td>Họ Tên</td>
-                <td>Tuổi</td>
-                <td>ĐTB</td>
+                <th>Họ Tên</th>
+                <th>Tuổi</th>
+                <th>ĐTB</th>
             </tr>
         </thead>
         <tbody>`;
@@ -24,8 +24,9 @@ function PrintData(data){
                 <td>`+v[0]+`</td>
                 <td>`+v[1]+`</td>
                 <td>`+v[2]+`</td>
-            </tr>`
-    result +=  `</tbody>
+            </tr>`;
+    result +=  `
+        </tbody>
     </table>
     `;
     return result;
